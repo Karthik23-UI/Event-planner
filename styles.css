@@ -1,0 +1,208 @@
+/* basic css */
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Inclusive+Sans:ital@0;1&family=Kalam:wght@300;400;700&family=Lobster&family=Montserrat:wght@300;500&family=Playfair+Display:ital,wght@0,500;1,400&family=Quicksand:wght@300&display=swap');
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+.container{
+    background-image: url(images/background\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+   }
+   .content{
+       text-align: center;
+       padding: 15%;
+       color: white;
+       font-size: 30px;
+   }
+   .sub-container h1{
+    text-align: center;
+    margin: 5rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+   }
+   .service {
+    margin-top: 5%;
+  }
+  .service .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    gap: 2rem;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .service .box-container .box {
+    border-radius: 0.5rem;
+    background: #333;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  
+  .service .box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    background: #ff6e31;
+    color: #fff;
+  }
+  
+  .service .box-container .box h3 {
+    font-size: 2.5rem;
+    color: #ff6e31;
+    padding: 1rem 0;
+  }
+  
+  .service .box-container .box p {
+    font-size: 1.4rem;
+    color: #eee;
+    line-height: 1.8;
+  }
+  .service .box-container .box ul li{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2rem;
+    list-style-type: none;
+    text-align: left;
+  }
+  .service .box-container .box ul li span{
+    color: #ff6e31;
+  }
+  .heading {
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+  
+  .heading span {
+    color: #ff6e31;
+    text-transform: uppercase;
+  
+  }
+
+  .contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .contact form .inputBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .inputBox input,select,
+  .contact form textarea {
+    width: 100%;
+    background: #333;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.7rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: none;
+  }
+  
+  .contact form .inputBox input::placeholder,
+  .contact form textarea::placeholder {
+    color: #eee;
+    text-transform: capitalize;
+  }
+  
+  .contact form .inputBox input:focus,
+  .contact form textarea:focus {
+    background: #444;
+  }
+  
+  .contact form .inputBox input,select {
+    width: 49%;
+  }
+  
+  .contact form textarea {
+    resize: none;
+  }
+  .btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  background: #666;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #ff6e31;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 9%;
+}
+
+.header .logo {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.header .logo span {
+  color: #ff6e31;
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.header .navbar a:hover {
+  color: #ff6e31;
+}
+.credit {
+  background-color: #333;
+  text-align: center;
+  border-top: 0.1rem solid #222;
+  color: #fff;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  margin-top: 7rem;
+  font-size: 2rem;
+}
+.credit span {
+  color: #ff6e31;
+}
